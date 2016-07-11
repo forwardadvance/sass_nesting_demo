@@ -1,0 +1,19 @@
+body {
+  color: blue;
+  font-size: 200%; }
+
+.user_profile {
+  color: green; }
+  .user_profile p {
+    color: blue; }
+  .user_profile a {
+    color: green; }
+    .user_profile a:hover {
+      color: goldenrod; }
+  @media (max-width: 720px) {
+    .user_profile {
+      background: blue; }
+      .user_profile p {
+        color: red; } }
+
+/*# sourceMappingURL=app.css.map*/

@@ -1,4 +1,26 @@
+$tablet: 720px;
+
 body {
-  color:red;
+  color:blue;
   font-size:200%;
+}
+
+.user_profile {
+  color:green;
+
+  p {
+    color:blue;
+  }
+  a {
+    color: green;
+    &:hover {
+      color: goldenrod;
+    }
+  }
+  @media (max-width: $tablet) {
+    background: blue;
+    p {
+      color:red;
+    }
+  }
 }
